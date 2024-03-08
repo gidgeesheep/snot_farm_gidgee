@@ -70,8 +70,8 @@
     {
       "Id": "3c2490ef-54a0-49bb-8f13-490e40aa51d1",
       "Name": "Cube",
-      "Position": "-36.35191,149.5578,14.17596",
-      "Rotation": "0.6296484,-0.3217805,0.3217807,-0.6296486",
+      "Position": "30.58536,112.3206,14.17596",
+      "Rotation": "0.4585792,-0.5382424,0.5382427,-0.4585794",
       "Scale": "0.5632889,0.5632889,0.5632889",
       "Enabled": true,
       "Components": [
@@ -94,6 +94,81 @@
         },
         {
           "__type": "Rigidbody",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "Id": "3547cb4e-4ea4-4c2b-b541-9d805cc5258b",
+      "Name": "Ramp",
+      "Position": "-180.5757,45.30441,-8.911518",
+      "Rotation": "0.5541549,-0.4392176,0.1918,-0.6805975",
+      "Scale": "3.800115,1.731574,1.420945",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "materials/dev/simple/simple_blend.vmat",
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.50698,0.72884,1,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "Rigidbody",
+          "__enabled": false,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "Id": "bd270591-3f0d-4453-8873-72fbf50fdee3",
+      "Name": "Little Wall",
+      "Position": "38.43261,-171.8458,-8.911534",
+      "Scale": "6.933453,0.1982403,1.354279",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "materials/architecture/tiles/brick_wall_large01a.vmat",
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.50698,0.72884,1,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "Rigidbody",
+          "__enabled": false,
           "AngularDamping": 0,
           "Gravity": true,
           "LinearDamping": 0,
@@ -181,7 +256,7 @@
     {
       "Id": "7e78999d-1128-442d-b625-b7f0a2342d44",
       "Name": "Cube (3)",
-      "Position": "33.68953,58.35341,14.17592",
+      "Position": "28.47501,63.39196,14.17591",
       "Rotation": "-0.6768576,-0.2046063,0.2046065,0.6768577",
       "Scale": "0.5632889,0.5632889,0.5632889",
       "Enabled": true,
@@ -218,7 +293,7 @@
     {
       "Id": "75c1e1fe-7f54-46e6-95be-8c5b41365957",
       "Name": "Cube (4)",
-      "Position": "9.902412,88.78543,14.17593",
+      "Position": "15.49365,81.20509,66.20762",
       "Rotation": "-0.6717079,-0.2209266,0.2209268,0.6717079",
       "Scale": "0.5632889,0.5632889,0.5632889",
       "Enabled": true,
@@ -255,8 +330,8 @@
     {
       "Id": "01767c60-c8c3-4b24-9c65-eb87c1a44128",
       "Name": "Cube (5)",
-      "Position": "-16.7777,122.5159,14.17592",
-      "Rotation": "-0.6722152,-0.2193778,0.2193779,0.6722153",
+      "Position": "-2.660324,90.03351,14.17592",
+      "Rotation": "-0.5925309,-0.3858848,0.3858849,0.592531",
       "Scale": "0.5632889,0.5632889,0.5632889",
       "Enabled": true,
       "Components": [
@@ -290,10 +365,37 @@
       ]
     },
     {
+      "Id": "31ed2600-6d47-4d1c-9479-23e614e3bf09",
+      "Name": "Cube (6)",
+      "Position": "-101.3185,133.6534,14.1759",
+      "Rotation": "-0.5925309,-0.3858848,0.3858849,0.592531",
+      "Scale": "0.5632889,0.5632889,0.5632889",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "materials/default.vmat",
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "1,0,0.93333,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        }
+      ]
+    },
+    {
       "Id": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
       "Name": "Camera",
-      "Position": "-142.8618,-209.9178,178.263",
-      "Rotation": "-0.08601984,0.1698469,0.4435503,0.8757943",
+      "Position": "-90.59062,-421.5936,171.7114",
+      "Rotation": "-0.1181829,0.1492655,0.609395,0.7696689",
       "Enabled": true,
       "Components": [
         {
@@ -352,6 +454,59 @@
           "Scale": 0.2
         }
       ]
+    },
+    {
+      "Id": "92eedd17-919b-4c45-999f-05fc537f179f",
+      "Name": "Sphere",
+      "Position": "-190.5618,58.19035,114.789",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "models/citizen_clothes/hat/hard_hat/textures/hard_hat.vmat",
+          "Model": "models/dev/sphere.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "SphereCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Radius": 33.333313,
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "Rigidbody",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "Id": "10540c86-f106-497e-b468-7fa260831a8a",
+      "Name": "Point Light",
+      "Position": "-67.47406,107.4055,69.27951",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "PointLight",
+          "Attenuation": 1,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Radius": 400,
+          "Shadows": true
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -377,6 +532,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-08T17:18:38.9827401-05:00",
+  "LastSaved": "2024-03-08T17:50:23.7916083-05:00",
   "__references": []
 }
