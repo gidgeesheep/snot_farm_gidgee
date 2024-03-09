@@ -68,43 +68,6 @@
       ]
     },
     {
-      "Id": "3c2490ef-54a0-49bb-8f13-490e40aa51d1",
-      "Name": "Cube",
-      "Position": "30.58536,112.3206,14.17596",
-      "Rotation": "0.4585792,-0.5382424,0.5382427,-0.4585794",
-      "Scale": "0.5632889,0.5632889,0.5632889",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "ModelRenderer",
-          "BodyGroups": 18446744073709551615,
-          "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
-          "Model": "models/dev/box.vmdl",
-          "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
-        },
-        {
-          "__type": "BoxCollider",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,50,50",
-          "Static": false,
-          "Surface": null
-        },
-        {
-          "__type": "Rigidbody",
-          "AngularDamping": 0,
-          "Gravity": true,
-          "LinearDamping": 0,
-          "Locking": {},
-          "MassOverride": 0,
-          "RigidbodyFlags": 0,
-          "StartAsleep": false
-        }
-      ]
-    },
-    {
       "Id": "3547cb4e-4ea4-4c2b-b541-9d805cc5258b",
       "Name": "Ramp",
       "Position": "-180.5757,45.30441,-8.911518",
@@ -180,6 +143,43 @@
       ]
     },
     {
+      "Id": "3c2490ef-54a0-49bb-8f13-490e40aa51d1",
+      "Name": "Cube",
+      "Position": "30.58536,112.3206,14.17596",
+      "Rotation": "0.4585792,-0.5382424,0.5382427,-0.4585794",
+      "Scale": "0.5632889,0.5632889,0.5632889",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.96744,0.443,0.11699,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__type": "Rigidbody",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
       "Id": "523e3e8f-a4ec-4ec1-af9a-d86ffc9c17e1",
       "Name": "Cube (1)",
       "Position": "49.9992,35.06815,14.19275",
@@ -191,10 +191,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -228,10 +228,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -265,10 +265,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -302,10 +302,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -339,10 +339,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -376,10 +376,10 @@
           "__type": "ModelRenderer",
           "BodyGroups": 18446744073709551615,
           "MaterialGroup": null,
-          "MaterialOverride": "materials/default.vmat",
+          "MaterialOverride": "models/citizen_clothes/vest/cardboard_chest/textures/cardboard_chest_notes.vmat",
           "Model": "models/dev/box.vmdl",
           "RenderType": "On",
-          "Tint": "1,0,0.93333,1"
+          "Tint": "0.96744,0.443,0.11699,1"
         },
         {
           "__type": "BoxCollider",
@@ -388,70 +388,6 @@
           "Scale": "50,50,50",
           "Static": false,
           "Surface": null
-        }
-      ]
-    },
-    {
-      "Id": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
-      "Name": "Camera",
-      "Position": "-90.59062,-421.5936,171.7114",
-      "Rotation": "-0.1181829,0.1492655,0.609395,0.7696689",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "CameraComponent",
-          "BackgroundColor": "0.33333,0.46275,0.52157,1",
-          "ClearFlags": "All",
-          "FieldOfView": 60,
-          "IsMainCamera": true,
-          "Orthographic": false,
-          "OrthographicHeight": 1204,
-          "Priority": 1,
-          "RenderExcludeTags": "",
-          "RenderTags": "",
-          "TargetEye": "None",
-          "Viewport": "0,0,1,1",
-          "ZFar": 10000,
-          "ZNear": 10
-        },
-        {
-          "__type": "Bloom",
-          "BloomColor": {
-            "color": [
-              {
-                "c": "1,1,1,1"
-              },
-              {
-                "t": 1,
-                "c": "1,1,1,1"
-              }
-            ],
-            "alpha": []
-          },
-          "BloomCurve": [
-            {
-              "y": 0.5
-            },
-            {
-              "x": 1,
-              "y": 1
-            }
-          ],
-          "Mode": "Additive",
-          "Strength": 0.5,
-          "Threshold": 0.5,
-          "ThresholdWidth": 0.5
-        },
-        {
-          "__type": "Tonemapping",
-          "ExposureCompensation": 0,
-          "MaximumExposure": 2,
-          "MinimumExposure": 1,
-          "Rate": 1
-        },
-        {
-          "__type": "Sharpen",
-          "Scale": 0.2
         }
       ]
     },
@@ -507,6 +443,82 @@
           "Shadows": true
         }
       ]
+    },
+    {
+      "Id": "7aaecef6-f5fb-4366-9539-007c42e9bef4",
+      "Name": "Player",
+      "Position": "34.40857,-25.27037,1.775223",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SkinnedModelRenderer",
+          "AnimationGraph": null,
+          "BodyGroups": 341,
+          "BoneMergeTarget": null,
+          "CreateBoneObjects": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/citizen/citizen.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "CharacterController",
+          "Acceleration": 10,
+          "Bounciness": 0.3,
+          "GroundAngle": 45,
+          "Height": 64,
+          "IgnoreLayers": "",
+          "Radius": 16,
+          "StepHeight": 18
+        },
+        {
+          "__type": "CitizenAnimationHelper",
+          "BodyWeight": 1,
+          "EyeSource": null,
+          "EyesWeight": 1,
+          "HeadWeight": 1,
+          "Height": 1,
+          "IkLeftFoot": null,
+          "IkLeftHand": null,
+          "IkRightFoot": null,
+          "IkRightHand": null,
+          "LookAt": null,
+          "LookAtEnabled": false,
+          "Target": {
+            "_type": "component",
+            "go": "7aaecef6-f5fb-4366-9539-007c42e9bef4",
+            "component_type": "SkinnedModelRenderer"
+          }
+        }
+      ],
+      "Children": [
+        {
+          "Id": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
+          "Name": "Camera",
+          "Position": "-143.9515,-21.6088,118.4531",
+          "Rotation": "-0.00000005034553,0.1829572,0.00000000936922,0.9831209",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "CameraComponent",
+              "BackgroundColor": "0.33333,0.46275,0.52157,1",
+              "ClearFlags": "All",
+              "FieldOfView": 60,
+              "IsMainCamera": true,
+              "Orthographic": false,
+              "OrthographicHeight": 1204,
+              "Priority": 1,
+              "RenderExcludeTags": "",
+              "RenderTags": "",
+              "TargetEye": "None",
+              "Viewport": "0,0,1,1",
+              "ZFar": 10000,
+              "ZNear": 10
+            }
+          ]
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -532,6 +544,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-08T17:50:23.7916083-05:00",
+  "LastSaved": "2024-03-08T21:17:13.7642067-05:00",
   "__references": []
 }
